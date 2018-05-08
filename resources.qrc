@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/text">
+        <file>phrases.txt</file>
+    </qresource>
+</RCC>
