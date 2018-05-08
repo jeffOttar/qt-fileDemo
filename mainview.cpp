@@ -32,7 +32,7 @@ MainView::MainView(QWidget *parent) :
 
     displayPhrase = new QLabel();
     vlmain->addWidget(displayPhrase);
-    displayPhrase->setText("Look at me");
+    displayPhrase->setText(phrases[qrand() % phrases.size()]);
 
 }
 
